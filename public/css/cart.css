@@ -1,0 +1,119 @@
+.wrapper {
+    margin-top: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-section {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.gambar {
+    width: 50%;
+    height: fit-content;
+}
+
+.content {
+    width: 40%;
+    padding-left: 3vw;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10vh;
+}
+
+.content .buttonc {
+    cursor: pointer;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1rem;
+    color: black;
+}
+
+.title p, .size p, .frame p, .quantity p {
+    font-size: 0.8rem;
+}
+
+.size, .frame, .quantity, .add-to-cart {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.size button, .frame button, .quantity input {
+    padding: 0.5rem;
+    border: none;
+    font-size: 0.8rem;
+    background: none;
+    color: inherit;
+}
+
+.size button:hover, .frame button:hover {
+    border: 1px solid #1D2A34;
+}
+
+.quantity-options {
+    width: 30%;
+    height: fit-content;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.quantity input {
+    width: 50px;
+    text-align: center;
+}
+
+.quantity-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quantity-options button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    font-size: 1.2rem;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    background: none;
+}
+
+
+.add-to-cart button{
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.add {
+    color: white;
+    background-color: #1D2A34;
+    font-weight: 600;
+}
+
+.paypal {
+    background-color: #FFC439;
+}
+
+.paypal i {
+    color: blue;
+}
+
+.add-to-cart a {
+    text-align: center;
+    font-size: 0.8rem;
+    color: black;
+}

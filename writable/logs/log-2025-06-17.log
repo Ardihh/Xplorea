@@ -1,0 +1,1103 @@
+DEBUG - 2025-06-17 10:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-17 10:26:40 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::getPendingArtists
+[Method: GET, Route: admin/artist-approval]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AdminController.php(19): CodeIgniter\Model->__call('getPendingArtists', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->artistApprovals()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 10:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-17 10:27:13 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::getPendingArtists
+[Method: GET, Route: admin/artist-approval]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AdminController.php(19): CodeIgniter\Model->__call('getPendingArtists', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->artistApprovals()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 10:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-17 10:27:14 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::getPendingArtists
+[Method: GET, Route: admin/artist-approval]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AdminController.php(19): CodeIgniter\Model->__call('getPendingArtists', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->artistApprovals()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 10:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-17 10:27:14 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::getPendingArtists
+[Method: GET, Route: admin/artist-approval]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AdminController.php(19): CodeIgniter\Model->__call('getPendingArtists', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->artistApprovals()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 10:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-17 10:27:15 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::getPendingArtists
+[Method: GET, Route: admin/artist-approval]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AdminController.php(19): CodeIgniter\Model->__call('getPendingArtists', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->artistApprovals()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 10:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-17 10:27:19 --> ErrorException: Undefined variable $artists
+[Method: GET, Route: admin/artist-approval]
+in APPPATH\Views\admin\artist_approvals.php on line 32.
+ 1 APPPATH\Views\admin\artist_approvals.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $artists', 'C:\\xampp\\htdocs\\Xplorea\\app\\Views\\admin\\artist_approvals.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Xplorea\\app\\Views\\admin\\artist_approvals.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/artist_approvals', [], true)
+ 5 APPPATH\Controllers\AdminController.php(24): view('admin/artist_approvals')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->artistApprovals()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 10:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-17 10:27:58 --> ErrorException: Undefined variable $artists
+[Method: GET, Route: admin/artist-approval]
+in APPPATH\Views\admin\artist_approvals.php on line 32.
+ 1 APPPATH\Views\admin\artist_approvals.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $artists', 'C:\\xampp\\htdocs\\Xplorea\\app\\Views\\admin\\artist_approvals.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Xplorea\\app\\Views\\admin\\artist_approvals.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/artist_approvals', [], true)
+ 5 APPPATH\Controllers\AdminController.php(24): view('admin/artist_approvals')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->artistApprovals()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 10:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-17 10:28:00 --> ErrorException: Undefined variable $artists
+[Method: GET, Route: admin/artist-approval]
+in APPPATH\Views\admin\artist_approvals.php on line 32.
+ 1 APPPATH\Views\admin\artist_approvals.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $artists', 'C:\\xampp\\htdocs\\Xplorea\\app\\Views\\admin\\artist_approvals.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Xplorea\\app\\Views\\admin\\artist_approvals.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/artist_approvals', [], true)
+ 5 APPPATH\Controllers\AdminController.php(24): view('admin/artist_approvals')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->artistApprovals()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 10:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-17 10:28:01 --> ErrorException: Undefined variable $artists
+[Method: GET, Route: admin/artist-approval]
+in APPPATH\Views\admin\artist_approvals.php on line 32.
+ 1 APPPATH\Views\admin\artist_approvals.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $artists', 'C:\\xampp\\htdocs\\Xplorea\\app\\Views\\admin\\artist_approvals.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Xplorea\\app\\Views\\admin\\artist_approvals.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/artist_approvals', [], true)
+ 5 APPPATH\Controllers\AdminController.php(24): view('admin/artist_approvals')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->artistApprovals()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 10:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-17 10:28:14 --> ErrorException: Undefined variable $artist
+[Method: GET, Route: admin/artist-approval]
+in APPPATH\Views\admin\artist_approvals.php on line 33.
+ 1 APPPATH\Views\admin\artist_approvals.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $artist', 'C:\\xampp\\htdocs\\Xplorea\\app\\Views\\admin\\artist_approvals.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Xplorea\\app\\Views\\admin\\artist_approvals.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/artist_approvals', [], true)
+ 5 APPPATH\Controllers\AdminController.php(24): view('admin/artist_approvals')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->artistApprovals()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+CRITICAL - 2025-06-17 10:37:14 --> CodeIgniter\Filters\Exceptions\FilterException: "auth" filter must have a matching alias defined.
+[Method: GET, Route: admin/artists/approvals]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('auth:admin', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 10:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 10:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 10:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 10:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 10:44:20 --> User logged in: tongkrongaan@gmail.com
+DEBUG - 2025-06-17 10:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-17 10:45:05 --> Error: Call to a member function isLoggedIn() on null
+[Method: GET, Route: admin/artists/approvals]
+in APPPATH\Filters\AdminAuthFilter.php on line 16.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\AdminAuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('admin/artists/approvals', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+CRITICAL - 2025-06-17 10:56:15 --> Error: Call to a member function isLoggedIn() on null
+[Method: GET, Route: admin/artists/approvals]
+in APPPATH\Filters\AdminAuthFilter.php on line 16.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\AdminAuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('admin/artists/approvals', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+CRITICAL - 2025-06-17 10:56:16 --> Error: Call to a member function isLoggedIn() on null
+[Method: GET, Route: admin/artists/approvals]
+in APPPATH\Filters\AdminAuthFilter.php on line 16.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\AdminAuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('admin/artists/approvals', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+CRITICAL - 2025-06-17 10:56:17 --> Error: Call to a member function isLoggedIn() on null
+[Method: GET, Route: admin/artists/approvals]
+in APPPATH\Filters\AdminAuthFilter.php on line 16.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\AdminAuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('admin/artists/approvals', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+CRITICAL - 2025-06-17 10:56:18 --> Error: Call to a member function isLoggedIn() on null
+[Method: GET, Route: admin/artists/approvals]
+in APPPATH\Filters\AdminAuthFilter.php on line 16.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\AdminAuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('admin/artists/approvals', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+CRITICAL - 2025-06-17 10:56:18 --> Error: Call to a member function isLoggedIn() on null
+[Method: GET, Route: admin/artists/approvals]
+in APPPATH\Filters\AdminAuthFilter.php on line 16.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\AdminAuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('admin/artists/approvals', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+CRITICAL - 2025-06-17 10:56:19 --> Error: Call to a member function isLoggedIn() on null
+[Method: GET, Route: admin/artists/approvals]
+in APPPATH\Filters\AdminAuthFilter.php on line 16.
+ 1 SYSTEMPATH\Filters\Filters.php(241): App\Filters\AdminAuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('admin/artists/approvals', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+CRITICAL - 2025-06-17 10:56:50 --> Error: Class "App\Filters\AdminAuthFilter" not found
+[Method: GET, Route: admin/artists/approvals]
+in SYSTEMPATH\Filters\Filters.php on line 299.
+ 1 SYSTEMPATH\Filters\Filters.php(239): CodeIgniter\Filters\Filters->createFilter('App\\Filters\\AdminAuthFilter')
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('admin/artists/approvals', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+CRITICAL - 2025-06-17 10:56:53 --> Error: Class "App\Filters\AdminAuthFilter" not found
+[Method: GET, Route: admin/artists/approvals]
+in SYSTEMPATH\Filters\Filters.php on line 299.
+ 1 SYSTEMPATH\Filters\Filters.php(239): CodeIgniter\Filters\Filters->createFilter('App\\Filters\\AdminAuthFilter')
+ 2 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 3 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('admin/artists/approvals', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+CRITICAL - 2025-06-17 10:57:13 --> CodeIgniter\Filters\Exceptions\FilterException: "auth" filter must have a matching alias defined.
+[Method: GET, Route: admin/artists/approvals]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 11:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-17 11:03:04 --> Unauthorized admin access attempt by user: aancuek IP: ::1
+DEBUG - 2025-06-17 11:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 11:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 11:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-17 11:03:27 --> Unauthorized admin access attempt by user: aancuek IP: ::1
+DEBUG - 2025-06-17 11:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 11:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 11:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-17 11:04:27 --> Unauthorized admin access attempt by user: aancuek IP: ::1
+DEBUG - 2025-06-17 11:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 11:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-17 11:04:46 --> Unauthorized admin access attempt by user: aancuek IP: ::1
+DEBUG - 2025-06-17 11:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 11:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 11:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 11:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 11:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 11:08:52 --> User logged in: tongkrongaan@gmail.com
+DEBUG - 2025-06-17 11:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 11:08:52 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/dashboard
+CRITICAL - 2025-06-17 11:08:52 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/dashboard.php"
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 3 APPPATH\Controllers\AdminController.php(55): view('admin/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 11:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 11:11:42 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/dashboard
+CRITICAL - 2025-06-17 11:11:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/admin.php"
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 4 APPPATH\Controllers\AdminController.php(55): view('admin/dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->dashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 11:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 11:12:15 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/dashboard
+CRITICAL - 2025-06-17 11:12:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/admin.php"
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 4 APPPATH\Controllers\AdminController.php(55): view('admin/dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->dashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 11:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 11:12:17 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/dashboard
+CRITICAL - 2025-06-17 11:12:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/admin.php"
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 4 APPPATH\Controllers\AdminController.php(55): view('admin/dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->dashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 11:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 11:12:17 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/dashboard
+CRITICAL - 2025-06-17 11:12:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/admin.php"
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 4 APPPATH\Controllers\AdminController.php(55): view('admin/dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->dashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 11:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 11:12:20 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/dashboard
+CRITICAL - 2025-06-17 11:12:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/admin.php"
+[Method: GET, Route: admin/dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 4 APPPATH\Controllers\AdminController.php(55): view('admin/dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->dashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 11:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 11:12:34 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/dashboard
+DEBUG - 2025-06-17 11:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 11:13:02 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approvals
+CRITICAL - 2025-06-17 11:13:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/admin_template.php"
+[Method: GET, Route: admin/artists/approvals]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin_template.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/admin_template', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/artist_approvals', [], true)
+ 4 APPPATH\Controllers\AdminController.php(66): view('admin/artist_approvals', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->artistApprovals()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 11:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 11:13:28 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/dashboard
+DEBUG - 2025-06-17 11:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 11:13:30 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approvals
+DEBUG - 2025-06-17 11:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 11:13:36 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approvals
+DEBUG - 2025-06-17 11:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 11:13:37 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/dashboard
+DEBUG - 2025-06-17 11:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 11:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 11:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 11:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 11:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 11:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 11:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 11:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 11:14:31 --> User logged in: ardi@ardi.com
+DEBUG - 2025-06-17 11:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 11:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 11:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 11:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 11:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 11:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 11:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 11:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 11:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 11:15:27 --> User logged in: tongkrongaan@gmail.com
+DEBUG - 2025-06-17 11:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 11:15:27 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/dashboard
+DEBUG - 2025-06-17 11:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 11:15:28 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approvals
+DEBUG - 2025-06-17 11:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 11:15:32 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/view/16
+CRITICAL - 2025-06-17 11:15:32 --> ErrorException: Undefined array key "portfolio_link"
+[Method: GET, Route: admin/artists/view/16]
+in APPPATH\Views\admin\artist_detail.php on line 46.
+ 1 APPPATH\Views\admin\artist_detail.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "portfolio_link"', 'C:\\xampp\\htdocs\\Xplorea\\app\\Views\\admin\\artist_detail.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Xplorea\\app\\Views\\admin\\artist_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/artist_detail', [], true)
+ 5 APPPATH\Controllers\AdminController.php(84): view('admin/artist_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->viewArtist('16')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 11:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 11:15:40 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/dashboard
+DEBUG - 2025-06-17 11:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 11:16:19 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/dashboard
+DEBUG - 2025-06-17 11:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 11:16:21 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approvals
+DEBUG - 2025-06-17 11:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 11:17:24 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approvals
+DEBUG - 2025-06-17 11:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 11:17:31 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approve/16
+ERROR - 2025-06-17 11:17:31 --> mysqli_sql_exception: Unknown column 'processed_by' in 'field list' in C:\xampp\htdocs\Xplorea\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Xplorea\system\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `artist_...', 0)
+#1 C:\xampp\htdocs\Xplorea\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `artist_...')
+#2 C:\xampp\htdocs\Xplorea\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `artist_...')
+#3 C:\xampp\htdocs\Xplorea\system\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `artist_...', Array, false)
+#4 C:\xampp\htdocs\Xplorea\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Xplorea\system\BaseModel.php(1031): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Xplorea\system\Model.php(863): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Xplorea\app\Controllers\AdminController.php(127): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\Xplorea\system\CodeIgniter.php(933): App\Controllers\AdminController->approveArtist('16')
+#9 C:\xampp\htdocs\Xplorea\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Xplorea\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Xplorea\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Xplorea\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\Xplorea\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\Xplorea\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+ERROR - 2025-06-17 11:17:32 --> Failed to approve artist: Transaction failed
+DEBUG - 2025-06-17 11:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 11:17:32 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approvals
+DEBUG - 2025-06-17 11:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 11:18:27 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/reject/16
+ERROR - 2025-06-17 11:18:27 --> mysqli_sql_exception: Unknown column 'processed_by' in 'field list' in C:\xampp\htdocs\Xplorea\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Xplorea\system\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `artist_...', 0)
+#1 C:\xampp\htdocs\Xplorea\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `artist_...')
+#2 C:\xampp\htdocs\Xplorea\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `artist_...')
+#3 C:\xampp\htdocs\Xplorea\system\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `artist_...', Array, false)
+#4 C:\xampp\htdocs\Xplorea\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Xplorea\system\BaseModel.php(1031): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Xplorea\system\Model.php(863): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Xplorea\app\Controllers\AdminController.php(190): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\Xplorea\system\CodeIgniter.php(933): App\Controllers\AdminController->rejectArtist('16')
+#9 C:\xampp\htdocs\Xplorea\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Xplorea\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Xplorea\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Xplorea\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\Xplorea\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\Xplorea\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+ERROR - 2025-06-17 11:18:27 --> Failed to reject artist: Transaction failed
+DEBUG - 2025-06-17 11:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 11:18:27 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approvals
+DEBUG - 2025-06-17 20:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 20:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 20:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 20:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 20:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:17:09 --> User logged in: tongkrongaan@gmail.com
+DEBUG - 2025-06-17 20:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:17:09 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/dashboard
+DEBUG - 2025-06-17 20:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:17:13 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approvals
+DEBUG - 2025-06-17 20:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:17:18 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approvals
+DEBUG - 2025-06-17 20:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:17:19 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists
+CRITICAL - 2025-06-17 20:17:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/artists.php"
+[Method: GET, Route: admin/artists]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/artists.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/artists', [], true)
+ 3 APPPATH\Controllers\AdminController.php(224): view('admin/artists', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->artists()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 20:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:17:26 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/settings
+DEBUG - 2025-06-17 20:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:17:53 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approvals
+DEBUG - 2025-06-17 20:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:21:10 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approvals
+DEBUG - 2025-06-17 20:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:21:27 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists
+CRITICAL - 2025-06-17 20:21:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/artists.php"
+[Method: GET, Route: admin/artists]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/artists.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/artists', [], true)
+ 3 APPPATH\Controllers\AdminController.php(224): view('admin/artists', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->artists()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 20:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:21:30 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approvals
+DEBUG - 2025-06-17 20:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:21:31 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/dashboard
+DEBUG - 2025-06-17 20:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:21:33 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approvals
+DEBUG - 2025-06-17 20:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:21:36 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/dashboard
+DEBUG - 2025-06-17 20:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:21:38 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approvals
+DEBUG - 2025-06-17 20:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:21:42 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/view/16
+CRITICAL - 2025-06-17 20:21:42 --> ErrorException: Undefined array key "portfolio_link"
+[Method: GET, Route: admin/artists/view/16]
+in APPPATH\Views\admin\artist_detail.php on line 46.
+ 1 APPPATH\Views\admin\artist_detail.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "portfolio_link"', 'C:\\xampp\\htdocs\\Xplorea\\app\\Views\\admin\\artist_detail.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Xplorea\\app\\Views\\admin\\artist_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/artist_detail', [], true)
+ 5 APPPATH\Controllers\AdminController.php(84): view('admin/artist_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->viewArtist('16')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 20:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:22:00 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approve/16
+ERROR - 2025-06-17 20:22:00 --> mysqli_sql_exception: Unknown column 'processed_by' in 'field list' in C:\xampp\htdocs\Xplorea\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Xplorea\system\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `artist_...', 0)
+#1 C:\xampp\htdocs\Xplorea\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `artist_...')
+#2 C:\xampp\htdocs\Xplorea\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `artist_...')
+#3 C:\xampp\htdocs\Xplorea\system\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `artist_...', Array, false)
+#4 C:\xampp\htdocs\Xplorea\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Xplorea\system\BaseModel.php(1031): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Xplorea\system\Model.php(863): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Xplorea\app\Controllers\AdminController.php(127): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\Xplorea\system\CodeIgniter.php(933): App\Controllers\AdminController->approveArtist('16')
+#9 C:\xampp\htdocs\Xplorea\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Xplorea\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Xplorea\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Xplorea\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\Xplorea\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\Xplorea\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+ERROR - 2025-06-17 20:22:00 --> Failed to approve artist: Transaction failed
+DEBUG - 2025-06-17 20:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:22:01 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approvals
+DEBUG - 2025-06-17 20:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:22:25 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/reject/16
+ERROR - 2025-06-17 20:22:25 --> mysqli_sql_exception: Unknown column 'processed_by' in 'field list' in C:\xampp\htdocs\Xplorea\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Xplorea\system\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `artist_...', 0)
+#1 C:\xampp\htdocs\Xplorea\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `artist_...')
+#2 C:\xampp\htdocs\Xplorea\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `artist_...')
+#3 C:\xampp\htdocs\Xplorea\system\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `artist_...', Array, false)
+#4 C:\xampp\htdocs\Xplorea\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Xplorea\system\BaseModel.php(1031): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Xplorea\system\Model.php(863): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Xplorea\app\Controllers\AdminController.php(190): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\Xplorea\system\CodeIgniter.php(933): App\Controllers\AdminController->rejectArtist('16')
+#9 C:\xampp\htdocs\Xplorea\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Xplorea\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Xplorea\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Xplorea\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\Xplorea\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\Xplorea\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+ERROR - 2025-06-17 20:22:25 --> Failed to reject artist: Transaction failed
+DEBUG - 2025-06-17 20:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:22:25 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approvals
+DEBUG - 2025-06-17 20:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:25:31 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approvals
+DEBUG - 2025-06-17 20:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:25:34 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approvals
+DEBUG - 2025-06-17 20:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:25:41 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approve/16
+INFO - 2025-06-17 20:25:41 --> Attempting to approve artist ID: 16
+INFO - 2025-06-17 20:25:41 --> Session data: {"__ci_last_regenerate":1750191670,"_ci_previous_url":"http:\/\/localhost:8080\/index.php\/admin\/artists\/approvals","redirect_url":"http:\/\/localhost:8080\/index.php\/admin\/artists\/approvals","user_id":"12","id":"12","username":"aancuek","email":"tongkrongaan@gmail.com","is_admin":"1","is_artist":"0","artist_profile_approved":"0","logged_in":true}
+INFO - 2025-06-17 20:25:41 --> POST data: {"csrf_test_name":"a540709060e29e34a09a325da1349414","admin_notes":""}
+INFO - 2025-06-17 20:25:41 --> Artist data: {"id":"16","username":"gmail","email":"ardi@ardi.com","password_hash":"$2y$10$R3Lx1s5CFpkIr.RDti7.meGH08i2CNKn4tKSaQUK3Q7WncyU5\/wVS","is_admin":"0","is_artist":"1","artist_profile_approved":"0","fullname":"rizjnr","art_categories":"Painting, Photography","location":"indonesia","phone":"2147483647","artist_bio":"rizjnr","artist_website":"alsdkfjas.com","stripe_connect_id":null,"created_at":"2025-06-17 11:14:19","updated_at":"2025-06-17 11:15:11"}
+INFO - 2025-06-17 20:25:41 --> Starting transaction for artist approval
+INFO - 2025-06-17 20:25:41 --> User update result: success
+INFO - 2025-06-17 20:25:41 --> Found request: {"id":"1","user_id":"16","request_data":"{\"fullname\":\"rizjnr\",\"art_categories\":\"Painting, Photography\",\"location\":\"indonesia\",\"phone\":\"628888016969\",\"artist_bio\":\"rizjnr\",\"artist_website\":\"alsdkfjas.com\"}","status":"pending","admin_notes":null,"requested_at":"2025-06-17 11:15:11","processed_at":null}
+ERROR - 2025-06-17 20:25:41 --> mysqli_sql_exception: Unknown column 'processed_by' in 'field list' in C:\xampp\htdocs\Xplorea\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Xplorea\system\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `artist_...', 0)
+#1 C:\xampp\htdocs\Xplorea\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `artist_...')
+#2 C:\xampp\htdocs\Xplorea\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `artist_...')
+#3 C:\xampp\htdocs\Xplorea\system\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `artist_...', Array, false)
+#4 C:\xampp\htdocs\Xplorea\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Xplorea\system\BaseModel.php(1031): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Xplorea\system\Model.php(863): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Xplorea\app\Controllers\AdminController.php(156): CodeIgniter\Model->update('1', Array)
+#8 C:\xampp\htdocs\Xplorea\system\CodeIgniter.php(933): App\Controllers\AdminController->approveArtist('16')
+#9 C:\xampp\htdocs\Xplorea\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Xplorea\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Xplorea\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Xplorea\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\Xplorea\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\Xplorea\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+ERROR - 2025-06-17 20:25:41 --> Exception in approveArtist: Unknown column 'processed_by' in 'field list'
+ERROR - 2025-06-17 20:25:41 --> Exception trace: #0 C:\xampp\htdocs\Xplorea\system\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `artist_...', Array, false)
+#1 C:\xampp\htdocs\Xplorea\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#2 C:\xampp\htdocs\Xplorea\system\BaseModel.php(1031): CodeIgniter\Model->doUpdate(Array, Array)
+#3 C:\xampp\htdocs\Xplorea\system\Model.php(863): CodeIgniter\BaseModel->update(Array, Array)
+#4 C:\xampp\htdocs\Xplorea\app\Controllers\AdminController.php(156): CodeIgniter\Model->update('1', Array)
+#5 C:\xampp\htdocs\Xplorea\system\CodeIgniter.php(933): App\Controllers\AdminController->approveArtist('16')
+#6 C:\xampp\htdocs\Xplorea\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Xplorea\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Xplorea\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Xplorea\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Xplorea\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\Xplorea\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+DEBUG - 2025-06-17 20:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:25:41 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approvals
+DEBUG - 2025-06-17 20:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:26:17 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/dashboard
+DEBUG - 2025-06-17 20:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 20:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 20:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 20:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 20:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:28:03 --> User logged in: jaris@gmail.com
+DEBUG - 2025-06-17 20:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-17 20:28:03 --> Unauthorized admin access attempt by user: jaris IP: ::1
+DEBUG - 2025-06-17 20:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 20:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 20:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 20:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 20:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-17 20:28:37 --> Unauthorized admin access attempt by user: jaris IP: ::1
+DEBUG - 2025-06-17 20:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 20:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 20:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:28:58 --> User logged in: tongkrongaan@gmail.com
+DEBUG - 2025-06-17 20:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:28:58 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/dashboard
+DEBUG - 2025-06-17 20:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:29:04 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approvals
+DEBUG - 2025-06-17 20:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:29:14 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approve/17
+INFO - 2025-06-17 20:29:14 --> Attempting to approve artist ID: 17
+INFO - 2025-06-17 20:29:14 --> Session data: {"__ci_last_regenerate":1750191977,"_ci_previous_url":"http:\/\/localhost:8080\/index.php\/admin\/artists\/approvals","user_id":"12","id":"12","username":"aancuek","email":"tongkrongaan@gmail.com","is_admin":"1","is_artist":"0","artist_profile_approved":"0","logged_in":true}
+INFO - 2025-06-17 20:29:14 --> POST data: {"csrf_test_name":"a540709060e29e34a09a325da1349414","admin_notes":""}
+INFO - 2025-06-17 20:29:14 --> Artist data: {"id":"17","username":"jaris","email":"jaris@gmail.com","password_hash":"$2y$10$jWzSYb\/7.meeuyHcLBv2dOiabQoa8K.f3qslDyrcD.QugqiX7R5tS","is_admin":"0","is_artist":"1","artist_profile_approved":"0","fullname":"jariski meidijuni","art_categories":"Painting, Digital Art, Photography, Sculpture","location":"indonesia","phone":"2147483647","artist_bio":"aku seorang kapiten","artist_website":"alsdkfjas.com","stripe_connect_id":null,"created_at":"2025-06-17 20:27:58","updated_at":"2025-06-17 20:28:33"}
+INFO - 2025-06-17 20:29:14 --> Starting transaction for artist approval
+INFO - 2025-06-17 20:29:14 --> User update result: success
+INFO - 2025-06-17 20:29:14 --> Found request: {"id":"2","user_id":"17","request_data":"{\"fullname\":\"jariski meidijuni\",\"art_categories\":\"Painting, Digital Art, Photography, Sculpture\",\"location\":\"indonesia\",\"phone\":\"628888016969\",\"artist_bio\":\"aku seorang kapiten\",\"artist_website\":\"alsdkfjas.com\"}","status":"pending","admin_notes":null,"requested_at":"2025-06-17 20:28:33","processed_at":null}
+ERROR - 2025-06-17 20:29:14 --> mysqli_sql_exception: Unknown column 'processed_by' in 'field list' in C:\xampp\htdocs\Xplorea\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Xplorea\system\Database\MySQLi\Connection.php(327): mysqli->query('UPDATE `artist_...', 0)
+#1 C:\xampp\htdocs\Xplorea\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `artist_...')
+#2 C:\xampp\htdocs\Xplorea\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `artist_...')
+#3 C:\xampp\htdocs\Xplorea\system\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `artist_...', Array, false)
+#4 C:\xampp\htdocs\Xplorea\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Xplorea\system\BaseModel.php(1031): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Xplorea\system\Model.php(863): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Xplorea\app\Controllers\AdminController.php(156): CodeIgniter\Model->update('2', Array)
+#8 C:\xampp\htdocs\Xplorea\system\CodeIgniter.php(933): App\Controllers\AdminController->approveArtist('17')
+#9 C:\xampp\htdocs\Xplorea\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Xplorea\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Xplorea\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Xplorea\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\Xplorea\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\Xplorea\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+ERROR - 2025-06-17 20:29:14 --> Exception in approveArtist: Unknown column 'processed_by' in 'field list'
+ERROR - 2025-06-17 20:29:14 --> Exception trace: #0 C:\xampp\htdocs\Xplorea\system\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `artist_...', Array, false)
+#1 C:\xampp\htdocs\Xplorea\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#2 C:\xampp\htdocs\Xplorea\system\BaseModel.php(1031): CodeIgniter\Model->doUpdate(Array, Array)
+#3 C:\xampp\htdocs\Xplorea\system\Model.php(863): CodeIgniter\BaseModel->update(Array, Array)
+#4 C:\xampp\htdocs\Xplorea\app\Controllers\AdminController.php(156): CodeIgniter\Model->update('2', Array)
+#5 C:\xampp\htdocs\Xplorea\system\CodeIgniter.php(933): App\Controllers\AdminController->approveArtist('17')
+#6 C:\xampp\htdocs\Xplorea\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Xplorea\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Xplorea\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Xplorea\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Xplorea\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\Xplorea\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+DEBUG - 2025-06-17 20:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:29:14 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approvals
+DEBUG - 2025-06-17 20:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:34:32 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approvals
+DEBUG - 2025-06-17 20:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:34:44 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/dashboard
+DEBUG - 2025-06-17 20:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:34:50 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approvals
+DEBUG - 2025-06-17 20:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:34:54 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/dashboard
+DEBUG - 2025-06-17 20:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:34:58 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists
+CRITICAL - 2025-06-17 20:34:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/artists.php"
+[Method: GET, Route: admin/artists]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/artists.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/artists', [], true)
+ 3 APPPATH\Controllers\AdminController.php(270): view('admin/artists', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->artists()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 20:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:35:03 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/users
+CRITICAL - 2025-06-17 20:35:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/users.php"
+[Method: GET, Route: admin/users]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/users.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/users', [], true)
+ 3 APPPATH\Controllers\AdminController.php(262): view('admin/users', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->users()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 20:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 20:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 20:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 20:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 20:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 20:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 20:36:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:36:06 --> User logged in: example@gmail.com
+DEBUG - 2025-06-17 20:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 20:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 20:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 20:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 20:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-06-17 20:36:30 --> Unauthorized admin access attempt by user: publik IP: ::1
+DEBUG - 2025-06-17 20:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 20:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-17 20:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:36:44 --> User logged in: tongkrongaan@gmail.com
+DEBUG - 2025-06-17 20:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:36:44 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/dashboard
+DEBUG - 2025-06-17 20:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:36:48 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approvals
+DEBUG - 2025-06-17 20:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:36:58 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approve/18
+INFO - 2025-06-17 20:36:58 --> Attempting to approve artist ID: 18
+INFO - 2025-06-17 20:36:58 --> Session data: {"__ci_last_regenerate":1750192544,"_ci_previous_url":"http:\/\/localhost:8080\/index.php\/admin\/artists\/approvals","user_id":"12","id":"12","username":"aancuek","email":"tongkrongaan@gmail.com","is_admin":"1","is_artist":"0","artist_profile_approved":"0","logged_in":true}
+INFO - 2025-06-17 20:36:58 --> POST data: {"csrf_test_name":"a540709060e29e34a09a325da1349414","admin_notes":"alhamdulillah"}
+INFO - 2025-06-17 20:36:59 --> Artist data: {"id":"18","username":"publik","email":"example@gmail.com","password_hash":"$2y$10$TBwIL\/gd8pOKh9SbPhKoEuiZyJv2yT265fSwqVAhq1di9Y1oZ0py2","is_admin":"0","is_artist":"1","artist_profile_approved":"0","fullname":"publik","art_categories":"Painting, Digital Art","location":"indonesia","phone":"2147483647","artist_bio":"ini adalah akun publik","artist_website":"alsdkfjas.com","stripe_connect_id":null,"created_at":"2025-06-17 20:36:00","updated_at":"2025-06-17 20:36:27"}
+INFO - 2025-06-17 20:36:59 --> Starting artist approval process
+INFO - 2025-06-17 20:36:59 --> User update result: success
+INFO - 2025-06-17 20:36:59 --> Found request: {"id":"3","user_id":"18","request_data":"{\"fullname\":\"publik\",\"art_categories\":\"Painting, Digital Art\",\"location\":\"indonesia\",\"phone\":\"628888016969\",\"artist_bio\":\"ini adalah akun publik\",\"artist_website\":\"alsdkfjas.com\"}","status":"pending","admin_notes":null,"requested_at":"2025-06-17 20:36:27","processed_at":null}
+INFO - 2025-06-17 20:36:59 --> Updating request with data: {"status":"approved","admin_notes":"alhamdulillah","processed_at":"2025-06-17 20:36:59"}
+INFO - 2025-06-17 20:36:59 --> Updating request ID: 3 with data: {"status":"approved","admin_notes":"alhamdulillah","processed_at":"2025-06-17 20:36:59"}
+INFO - 2025-06-17 20:36:59 --> Successfully updated request ID: 3
+INFO - 2025-06-17 20:36:59 --> Request update result: success
+INFO - 2025-06-17 20:36:59 --> Artist approval completed successfully
+DEBUG - 2025-06-17 20:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:36:59 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approvals
+DEBUG - 2025-06-17 20:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:46:02 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/dashboard
+DEBUG - 2025-06-17 20:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:46:08 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists
+CRITICAL - 2025-06-17 20:46:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/artists.php"
+[Method: GET, Route: admin/artists]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/artists.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/artists', [], true)
+ 3 APPPATH\Controllers\AdminController.php(270): view('admin/artists', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->artists()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 20:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:46:25 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists
+CRITICAL - 2025-06-17 20:46:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/admin_layout.php"
+[Method: GET, Route: admin/artists]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin_layout.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/admin_layout', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/artists', [], true)
+ 4 APPPATH\Controllers\AdminController.php(270): view('admin/artists', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->artists()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 20:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:46:27 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists
+CRITICAL - 2025-06-17 20:46:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/admin_layout.php"
+[Method: GET, Route: admin/artists]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin_layout.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/admin_layout', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/artists', [], true)
+ 4 APPPATH\Controllers\AdminController.php(270): view('admin/artists', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->artists()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 20:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:46:40 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists
+CRITICAL - 2025-06-17 20:46:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/admin.php"
+[Method: GET, Route: admin/artists]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/artists', [], true)
+ 4 APPPATH\Controllers\AdminController.php(270): view('admin/artists', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->artists()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 20:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:46:42 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists
+CRITICAL - 2025-06-17 20:46:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/admin.php"
+[Method: GET, Route: admin/artists]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/admin.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/admin', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/artists', [], true)
+ 4 APPPATH\Controllers\AdminController.php(270): view('admin/artists', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->artists()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 20:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:46:49 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists
+DEBUG - 2025-06-17 20:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:47:26 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approvals
+DEBUG - 2025-06-17 20:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:47:32 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/dashboard
+DEBUG - 2025-06-17 20:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:47:42 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists
+CRITICAL - 2025-06-17 20:47:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/admin_layout.php"
+[Method: GET, Route: admin/artists]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/admin_layout.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/admin_layout', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/artists', [], true)
+ 4 APPPATH\Controllers\AdminController.php(270): view('admin/artists', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->artists()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 20:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:47:53 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists
+DEBUG - 2025-06-17 20:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:48:19 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists
+DEBUG - 2025-06-17 20:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:48:22 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/dashboard
+DEBUG - 2025-06-17 20:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:48:24 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/users
+CRITICAL - 2025-06-17 20:48:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/users.php"
+[Method: GET, Route: admin/users]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/users.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/users', [], true)
+ 3 APPPATH\Controllers\AdminController.php(262): view('admin/users', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->users()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 20:48:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:48:34 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/users
+CRITICAL - 2025-06-17 20:48:34 --> ErrorException: Undefined array key "is_active"
+[Method: GET, Route: admin/users]
+in APPPATH\Views\admin\users.php on line 41.
+ 1 APPPATH\Views\admin\users.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "is_active"', 'C:\\xampp\\htdocs\\Xplorea\\app\\Views\\admin\\users.php', 41)
+ 2 [internal function]: CodeIgniter\View\View->{closure}([...])
+ 3 APPPATH\Views\admin\users.php(41): array_filter([...], Object(Closure))
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Xplorea\\app\\Views\\admin\\users.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/users', [], true)
+ 7 APPPATH\Controllers\AdminController.php(262): view('admin/users', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->users()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 20:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:48:35 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/users
+CRITICAL - 2025-06-17 20:48:35 --> ErrorException: Undefined array key "is_active"
+[Method: GET, Route: admin/users]
+in APPPATH\Views\admin\users.php on line 41.
+ 1 APPPATH\Views\admin\users.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "is_active"', 'C:\\xampp\\htdocs\\Xplorea\\app\\Views\\admin\\users.php', 41)
+ 2 [internal function]: CodeIgniter\View\View->{closure}([...])
+ 3 APPPATH\Views\admin\users.php(41): array_filter([...], Object(Closure))
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Xplorea\\app\\Views\\admin\\users.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/users', [], true)
+ 7 APPPATH\Controllers\AdminController.php(262): view('admin/users', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->users()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 20:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:50:55 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/users
+DEBUG - 2025-06-17 20:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:50:56 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/users
+DEBUG - 2025-06-17 20:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:51:02 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/users
+DEBUG - 2025-06-17 20:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:52:14 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/users
+DEBUG - 2025-06-17 20:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:52:15 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/users
+DEBUG - 2025-06-17 20:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:52:16 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/users
+DEBUG - 2025-06-17 20:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:52:17 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/users
+DEBUG - 2025-06-17 20:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:55:46 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/users
+DEBUG - 2025-06-17 20:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:55:47 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/users
+DEBUG - 2025-06-17 20:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:55:48 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/users
+DEBUG - 2025-06-17 20:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:57:40 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/users
+DEBUG - 2025-06-17 20:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:57:41 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/users
+DEBUG - 2025-06-17 20:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:57:42 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/users
+DEBUG - 2025-06-17 20:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:57:43 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/users
+DEBUG - 2025-06-17 20:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:59:00 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/users
+DEBUG - 2025-06-17 20:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:59:00 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/users
+DEBUG - 2025-06-17 20:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:59:02 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/dashboard
+DEBUG - 2025-06-17 20:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 20:59:04 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/users
+DEBUG - 2025-06-17 21:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:00:09 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/users
+DEBUG - 2025-06-17 21:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:00:11 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/users
+DEBUG - 2025-06-17 21:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:05:33 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/users
+DEBUG - 2025-06-17 21:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:06:01 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/approvals
+DEBUG - 2025-06-17 21:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:06:02 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists
+DEBUG - 2025-06-17 21:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:06:05 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/users
+DEBUG - 2025-06-17 21:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:06:06 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists
+DEBUG - 2025-06-17 21:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:06:07 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/dashboard
+DEBUG - 2025-06-17 21:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:06:09 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists
+DEBUG - 2025-06-17 21:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:08:00 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists
+DEBUG - 2025-06-17 21:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:08:02 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists
+DEBUG - 2025-06-17 21:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:08:21 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists
+DEBUG - 2025-06-17 21:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:08:22 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists
+DEBUG - 2025-06-17 21:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:08:23 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists
+DEBUG - 2025-06-17 21:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:08:26 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists
+DEBUG - 2025-06-17 21:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:08:50 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists
+DEBUG - 2025-06-17 21:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:08:51 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists
+DEBUG - 2025-06-17 21:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:08:57 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists
+DEBUG - 2025-06-17 21:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:09:07 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/view/10
+CRITICAL - 2025-06-17 21:09:07 --> ErrorException: Undefined array key "portfolio_link"
+[Method: GET, Route: admin/artists/view/10]
+in APPPATH\Views\admin\artist_detail.php on line 46.
+ 1 APPPATH\Views\admin\artist_detail.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "portfolio_link"', 'C:\\xampp\\htdocs\\Xplorea\\app\\Views\\admin\\artist_detail.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Xplorea\\app\\Views\\admin\\artist_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/artist_detail', [], true)
+ 5 APPPATH\Controllers\AdminController.php(84): view('admin/artist_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->viewArtist('10')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 21:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:09:11 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists/view/14
+CRITICAL - 2025-06-17 21:09:11 --> ErrorException: Undefined array key "portfolio_link"
+[Method: GET, Route: admin/artists/view/14]
+in APPPATH\Views\admin\artist_detail.php on line 46.
+ 1 APPPATH\Views\admin\artist_detail.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "portfolio_link"', 'C:\\xampp\\htdocs\\Xplorea\\app\\Views\\admin\\artist_detail.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Xplorea\\app\\Views\\admin\\artist_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/artist_detail', [], true)
+ 5 APPPATH\Controllers\AdminController.php(84): view('admin/artist_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->viewArtist('14')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+DEBUG - 2025-06-17 21:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:09:42 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/settings
+DEBUG - 2025-06-17 21:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:14:44 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists
+DEBUG - 2025-06-17 21:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:15:59 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/artists
+DEBUG - 2025-06-17 21:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-17 21:16:04 --> Admin access: aancuek accessed http://localhost:8080/index.php/admin/profile
+CRITICAL - 2025-06-17 21:16:04 --> ErrorException: Undefined variable $admin
+[Method: GET, Route: admin/profile]
+in APPPATH\Views\admin\profile.php on line 25.
+ 1 APPPATH\Views\admin\profile.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $admin', 'C:\\xampp\\htdocs\\Xplorea\\app\\Views\\admin\\profile.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Xplorea\\app\\Views\\admin\\profile.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/profile', [], true)
+ 5 APPPATH\Controllers\AdminController.php(280): view('admin/profile')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')

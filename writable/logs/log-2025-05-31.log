@@ -1,0 +1,127 @@
+CRITICAL - 2025-05-31 03:01:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "xplorea/index.php"
+[Method: GET, Route: xplorea]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('xplorea/index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('xplorea/index', [], true)
+ 3 APPPATH\Controllers\Xplorea.php(9): view('xplorea/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Xplorea->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Xplorea))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+CRITICAL - 2025-05-31 03:05:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "xplorea/index.php"
+[Method: GET, Route: xplorea]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('xplorea/index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('xplorea/index', [], true)
+ 3 APPPATH\Controllers\Xplorea.php(9): view('xplorea/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Xplorea->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Xplorea))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+CRITICAL - 2025-05-31 03:13:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/layout/layout.php"
+[Method: GET, Route: xplorea]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/layout/layout.php')
+ 2 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('/layout/layout.php', null, true)
+ 3 APPPATH\Views\xplorea\index.php(1): CodeIgniter\View\View->include('/layout/layout.php')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Xplorea\\app\\Views\\xplorea\\index.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('xplorea/index', [], true)
+ 7 APPPATH\Controllers\Xplorea.php(9): view('xplorea/index')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Xplorea->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Xplorea))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+CRITICAL - 2025-05-31 03:14:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/layout/template.php"
+[Method: GET, Route: xplorea]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/layout/template.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('/layout/template', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('xplorea/index', [], true)
+ 4 APPPATH\Controllers\Xplorea.php(9): view('xplorea/index')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Xplorea->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Xplorea))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+CRITICAL - 2025-05-31 03:14:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/layout/template.php"
+[Method: GET, Route: xplorea]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/layout/template.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('/layout/template', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('xplorea/index', [], true)
+ 4 APPPATH\Controllers\Xplorea.php(9): view('xplorea/index')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Xplorea->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Xplorea))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+CRITICAL - 2025-05-31 03:14:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/layout/template.php"
+[Method: GET, Route: xplorea]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/layout/template.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('/layout/template', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('xplorea/index', [], true)
+ 4 APPPATH\Controllers\Xplorea.php(9): view('xplorea/index')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Xplorea->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Xplorea))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+CRITICAL - 2025-05-31 03:14:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/layout/template.php"
+[Method: GET, Route: xplorea]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/layout/template.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('/layout/template', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('xplorea/index', [], true)
+ 4 APPPATH\Controllers\Xplorea.php(9): view('xplorea/index')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Xplorea->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Xplorea))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+CRITICAL - 2025-05-31 03:14:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/layout/template.php"
+[Method: GET, Route: xplorea]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/layout/template.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('/layout/template', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('xplorea/index', [], true)
+ 4 APPPATH\Controllers\Xplorea.php(9): view('xplorea/index')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Xplorea->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Xplorea))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')
+CRITICAL - 2025-05-31 03:14:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/layout/template.php"
+[Method: GET, Route: xplorea]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/layout/template.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('/layout/template', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('xplorea/index', [], true)
+ 4 APPPATH\Controllers\Xplorea.php(9): view('xplorea/index')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Xplorea->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Xplorea))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Xplorea\\public\\index.php')

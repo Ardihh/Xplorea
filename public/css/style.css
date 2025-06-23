@@ -1,0 +1,242 @@
+body {
+  font-family: "IBM Plex Sans";
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.image-container img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+}
+
+.image-container:hover img {
+    transform: scale(1.1);
+}
+
+.artist-expand {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 30vw;
+    height: 30vh;
+    transform: translateX(-50%);
+    background-color: #fff;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    padding: 10px;
+    z-index: 10;
+    display: flex;
+    gap: 1rem;
+}
+
+.artist-expand li {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0.5rem;
+}
+
+.artist-expand a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+.artist-expand #title {
+    font-weight: 600;
+}
+
+.login {
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.login a {
+    font-size: 2rem;
+    margin: 0;
+    margin-right: 0.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.login-expand {
+    position: absolute;
+    top: 17vh; /* Tepat di bawah navbar */
+    right: 5%;
+    background-color: rgb(255, 255, 255); /* Hanya contoh warna */
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+    border-radius: 25px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1001;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.login-expand0 {
+    width: 90%;
+}
+
+.login-expand a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+.login-expand-cta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.login-expand1, .artists-expand1{
+    height: 2.3rem;
+    padding: 0rem 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    border: 2px solid gray;
+}
+
+.login-expand2, .artists-expand2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 2.3rem;
+    padding: 0 2.5rem;
+    border-radius: 25px;
+    border: 2px solid gray;
+}
+
+.cart-expand {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+    width: 25vw;
+    background: white;
+    z-index: 1001;
+    height: 100vh;
+}
+
+.cart-expand-header {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+    justify-content: space-between;
+    border-bottom: gray 1px solid;
+}
+
+.cart-expand-header h1{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.cart-expand-header button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: black;
+    cursor: pointer;
+}
+
+.cart-expand-bottom {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-top: gray 1px solid;
+    position: absolute;
+    bottom: 13%;
+    left: 0;
+}
+
+.cart-expand-bottom2 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+.cart-total {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+.totalPrice {
+    font-size: 0.8rem;
+}
+
+
+.cart-checkout {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 4vh;
+    border-radius: 25px;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+}
+
+.cart-checkout a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    padding : 0.5rem 0;
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkout-button {
+    width: 100%;
+    background-color: #1D2A34;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.15); /* Putih semi transparan */
+    z-index: 90;
+}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
