@@ -1,1 +1,1 @@
-__ci_last_regenerate|i:1750738223;_ci_previous_url|s:47:"http://localhost:8080/index.php/admin/dashboard";user_id|s:2:"25";id|s:2:"25";username|s:5:"admin";email|s:15:"admin@admin.com";is_admin|s:1:"1";is_artist|s:1:"0";artist_profile_approved|s:1:"0";logged_in|b:1;__ci_vars|a:0:{}
+__ci_last_regenerate|i:1750738562;_ci_previous_url|s:61:"http://localhost:8080/index.php/admin/artists?status=approved";user_id|s:2:"25";id|s:2:"25";username|s:5:"admin";email|s:15:"admin@admin.com";is_admin|s:1:"1";is_artist|s:1:"0";artist_profile_approved|s:1:"0";logged_in|b:1;

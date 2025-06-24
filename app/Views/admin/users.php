@@ -123,11 +123,6 @@
                                                         <i class="fas fa-edit"></i>
                                                     </button>
                                                     <?php if (isset($user['is_active']) && $user['is_active']): ?>
-                                                        <button type="button" class="btn btn-sm btn-secondary" 
-                                                                onclick="toggleUserStatus(<?= $user['id'] ?>, false, '<?= esc($user['username']) ?>')" 
-                                                                title="Deactivate User">
-                                                            <i class="fas fa-ban"></i>
-                                                        </button>
                                                     <?php else: ?>
                                                         <button type="button" class="btn btn-sm btn-success" 
                                                                 onclick="toggleUserStatus(<?= $user['id'] ?>, true, '<?= esc($user['username']) ?>')" 
