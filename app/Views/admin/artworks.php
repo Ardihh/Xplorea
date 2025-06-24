@@ -49,6 +49,7 @@ Manage Artworks
                             <th>Title</th>
                             <th>Artist</th>
                             <th>Price</th>
+                            <th>Orders</th>
                             <th>Status</th>
                             <th>Created</th>
                             <th>Actions</th>
@@ -68,6 +69,9 @@ Manage Artworks
                             <td><?= esc($artwork['title']) ?></td>
                             <td><?= esc($artwork['artist_name']) ?></td>
                             <td>Rp. <?= number_format($artwork['base_price'], 0, ',', '.') ?></td>
+                            <td>
+                                <span class="badge bg-info"><?= $artwork['order_count'] ?? 0 ?></span>
+                            </td>
                             <td>
                                 <?php if ($artwork['is_approved'] == 1): ?>
                                     <span class="badge bg-success">Approved</span>

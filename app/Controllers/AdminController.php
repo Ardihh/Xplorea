@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Models\UserModel;
 use App\Models\ArtistUpgradeRequestModel;
+use App\Models\EventModel;
 
 class AdminController extends BaseController
 {
@@ -39,6 +40,7 @@ class AdminController extends BaseController
     public function dashboard()
     {
         $productModel = new \App\Models\ProductModel();
+        $eventModel = new \App\Models\EventModel();
         
         // Get chart data
         $userGrowthData = $this->getUserGrowthData();
@@ -82,6 +84,9 @@ class AdminController extends BaseController
             ->where('created_at <=', date('Y-m-t') . ' 23:59:59')
             ->countAllResults();
         
+        // Get total events count dynamically
+        $total_events = $eventModel->where('is_active', 1)->countAllResults();
+        
         $data = [
             'total_users' => $total_users,
             'total_artists' => $total_artists,
@@ -98,10 +103,9 @@ class AdminController extends BaseController
                 ->where('products.is_approved', 0)
                 ->countAllResults(),
             'rejected_artworks' => $rejectedArtworks,
-            'total_events' => 0, 
+            'total_events' => $total_events, 
             'user_growth_data' => $userGrowthData,
             'artworks_growth_data' => $artworksGrowthData,
-
             'conversion_rate' => $conversion_rate,
             'avg_artworks' => $avg_artworks,
             'artwork_approval_rate' => $artwork_approval_rate,
@@ -491,6 +495,7 @@ class AdminController extends BaseController
     {
         $status = $this->request->getGet('status');
         $productModel = new \App\Models\ProductModel();
+        $orderItemsModel = new \App\Models\OrderItemsModel();
 
         $productModel->select('products.*, users.fullname AS artist_name, 
                               (SELECT COUNT(*) FROM order_items WHERE order_items.product_id = products.id) as order_count')
