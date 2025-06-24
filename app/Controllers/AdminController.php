@@ -492,7 +492,8 @@ class AdminController extends BaseController
         $status = $this->request->getGet('status');
         $productModel = new \App\Models\ProductModel();
 
-        $productModel->select('products.*, users.fullname AS artist_name')
+        $productModel->select('products.*, users.fullname AS artist_name, 
+                              (SELECT COUNT(*) FROM order_items WHERE order_items.product_id = products.id) as order_count')
                      ->join('users', 'users.id = products.artist_id', 'left');
 
         if ($status === 'pending') {
