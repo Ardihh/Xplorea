@@ -121,3 +121,35 @@ DEBUG - 2025-06-24 04:16:04 --> Session: Class initialized using 'CodeIgniter\Se
 INFO - 2025-06-24 04:16:04 --> Admin access: admin accessed http://localhost:8080/index.php/admin/users
 DEBUG - 2025-06-24 04:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-06-24 04:16:42 --> Admin access: admin accessed http://localhost:8080/index.php/admin/users
+DEBUG - 2025-06-24 04:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-24 04:23:07 --> Admin access: admin accessed http://localhost:8080/index.php/admin/dashboard
+DEBUG - 2025-06-24 04:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-24 04:23:35 --> Admin access: admin accessed http://localhost:8080/index.php/admin/dashboard
+DEBUG - 2025-06-24 04:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-24 04:23:36 --> Admin access: admin accessed http://localhost:8080/index.php/admin/dashboard
+DEBUG - 2025-06-24 04:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-24 04:23:37 --> Admin access: admin accessed http://localhost:8080/index.php/admin/dashboard
+DEBUG - 2025-06-24 04:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-24 04:23:46 --> Admin access: admin accessed http://localhost:8080/index.php/admin/dashboard
+DEBUG - 2025-06-24 04:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-24 04:24:17 --> Admin access: admin accessed http://localhost:8080/index.php/admin/dashboard
+DEBUG - 2025-06-24 04:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-24 04:24:25 --> Admin access: admin accessed http://localhost:8080/index.php/admin/dashboard
+DEBUG - 2025-06-24 04:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-24 04:24:26 --> Admin access: admin accessed http://localhost:8080/index.php/admin/dashboard
+DEBUG - 2025-06-24 04:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-24 04:24:40 --> Admin access: admin accessed http://localhost:8080/index.php/admin/dashboard
+DEBUG - 2025-06-24 04:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-24 04:24:51 --> Admin access: admin accessed http://localhost:8080/index.php/admin/artworks?status=rejected
+DEBUG - 2025-06-24 04:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-24 04:24:56 --> Admin access: admin accessed http://localhost:8080/index.php/admin/artworks?status=
+DEBUG - 2025-06-24 04:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-24 04:25:02 --> Admin access: admin accessed http://localhost:8080/index.php/admin/artworks?status=rejected
+DEBUG - 2025-06-24 04:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-24 04:25:05 --> Admin access: admin accessed http://localhost:8080/index.php/admin/artworks?status=approved
+DEBUG - 2025-06-24 04:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-24 04:26:55 --> Admin access: admin accessed http://localhost:8080/index.php/admin/artworks?status=
+DEBUG - 2025-06-24 04:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-24 04:27:18 --> Admin access: admin accessed http://localhost:8080/index.php/admin/artworks?status=
+DEBUG - 2025-06-24 04:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-24 04:27:23 --> Admin access: admin accessed http://localhost:8080/index.php/admin/artworks?status=rejected

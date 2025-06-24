@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 22 Jun 2025 pada 09.19
+-- Waktu pembuatan: 24 Jun 2025 pada 06.28
 -- Versi server: 10.4.32-MariaDB
 -- Versi PHP: 8.1.25
 
@@ -61,7 +61,9 @@ INSERT INTO `artist_upgrade_requests` (`id`, `user_id`, `request_data`, `status`
 (1, 16, '{\"fullname\":\"rizjnr\",\"art_categories\":\"Painting, Photography\",\"location\":\"indonesia\",\"phone\":\"628888016969\",\"artist_bio\":\"rizjnr\",\"artist_website\":\"alsdkfjas.com\"}', 'pending', NULL, '2025-06-17 03:15:11', NULL),
 (2, 17, '{\"fullname\":\"jariski meidijuni\",\"art_categories\":\"Painting, Digital Art, Photography, Sculpture\",\"location\":\"indonesia\",\"phone\":\"628888016969\",\"artist_bio\":\"aku seorang kapiten\",\"artist_website\":\"alsdkfjas.com\"}', 'pending', NULL, '2025-06-17 12:28:33', NULL),
 (3, 18, '{\"fullname\":\"publik\",\"art_categories\":\"Painting, Digital Art\",\"location\":\"indonesia\",\"phone\":\"628888016969\",\"artist_bio\":\"ini adalah akun publik\",\"artist_website\":\"alsdkfjas.com\"}', 'approved', 'alhamdulillah', '2025-06-17 12:36:27', '2025-06-17 12:36:59'),
-(4, 19, '{\"fullname\":\"pawas hadi pawas\",\"art_categories\":\"Painting, Digital Art, Photography, Sculpture\",\"location\":\"indonesia\",\"phone\":\"628888016969\",\"artist_bio\":\"alsdkfj\",\"artist_website\":\"alsdkfjas.com\"}', 'rejected', 'minimal rank legend', '2025-06-17 23:11:09', '2025-06-17 23:11:59');
+(4, 19, '{\"fullname\":\"pawas hadi pawas\",\"art_categories\":\"Painting, Digital Art, Photography, Sculpture\",\"location\":\"indonesia\",\"phone\":\"628888016969\",\"artist_bio\":\"alsdkfj\",\"artist_website\":\"alsdkfjas.com\"}', 'rejected', 'minimal rank legend', '2025-06-17 23:11:09', '2025-06-17 23:11:59'),
+(5, 21, '{\"fullname\":\"M. RIZKI JUNIARDI\",\"art_categories\":\"Photography\",\"location\":\"indonesia\",\"phone\":\"+628888016969\",\"artist_bio\":\"lasdkfjasldkfj\",\"artist_website\":\"alsdkfjas.com\"}', 'approved', 'hgvghb', '2025-06-22 00:59:17', '2025-06-22 01:01:22'),
+(6, 26, '{\"fullname\":\"aan gagah\",\"art_categories\":\"Other\",\"location\":\"Pagutan\",\"phone\":\"kepo\",\"artist_bio\":\"hanya mahasiswa gabut \",\"artist_website\":\"\"}', 'rejected', 'konten ai dan tidak kreatif', '2025-06-22 06:30:04', '2025-06-22 06:31:48');
 
 -- --------------------------------------------------------
 
@@ -120,7 +122,10 @@ CREATE TABLE `events` (
 INSERT INTO `events` (`id`, `title`, `description`, `location`, `start_datetime`, `end_datetime`, `image_url`, `max_attendees`, `is_active`, `created_by`, `created_at`, `updated_at`) VALUES
 (1, 'Infornation', 'dies natalis informatika unram.', 'parkiran gedung D fakultas teknik universitas mataram', '2025-07-12 17:00:00', '2025-07-20 22:00:00', '1750385410_bb0c1ecd5e1e539681c0.jpg', 10000, 1, 10, '2025-06-19 18:10:10', '2025-06-21 05:45:59'),
 (3, 'Staging Desire', 'Staging Desire (Panggung Kehendak) merupakan pameran kolaborasi antara seniman Nindityo Adipurnomo dan Imam Cahyo yang digelar di Galeri Salihara hingga 27 Juli 2025. Dalam seteleng ini, keduanya mengeksplorasi tema identitas dan tradisi dengan cara yang unik laiknya pertunjukan.', 'Jakarta', '2025-06-25 12:00:00', '2025-07-27 22:00:00', '1750512610_ead164135f9792c16f31.png', 0, 1, 12, '2025-06-21 05:30:10', '2025-06-21 13:32:55'),
-(4, 'Jakarta Provoke', 'Event ini menghadirkan kolaborasi 19 artis seniman dengan 19 kurator kontemporer dalam satu panggung kreatif yang sama. Dilansir dari laman resmi eventfestid, lebih dari 19 karya seni dari berbagai medium seperti lukisan, fotografi, dan instalasi akan dipamerkan.', 'Jakarta', '2025-07-03 08:30:00', '2025-07-03 22:00:00', '1750513032_9b5a3741d0c1722a1818.jpg', 0, 1, 10, '2025-06-21 05:37:12', '2025-06-21 05:37:12');
+(4, 'Jakarta Provoke', 'Event ini menghadirkan kolaborasi 19 artis seniman dengan 19 kurator kontemporer dalam satu panggung kreatif yang sama. Dilansir dari laman resmi eventfestid, lebih dari 19 karya seni dari berbagai medium seperti lukisan, fotografi, dan instalasi akan dipamerkan.', 'Jakarta', '2025-07-03 08:30:00', '2025-07-03 22:00:00', '1750513032_9b5a3741d0c1722a1818.jpg', 0, 1, 10, '2025-06-21 05:37:12', '2025-06-21 05:37:12'),
+(6, 'NWSBa', 'asldfkja sdfklja sdlfka jsdfl k', 'ARBUD', '2025-06-23 17:57:00', '2025-06-24 17:57:00', '1750586284_0aeed8ec23c6e6f3dfc7.jpg', 1200, 0, 12, '2025-06-22 01:58:04', '2025-06-22 01:59:25'),
+(8, 'empty', 'lasdfjkasldf asdfl kasd', 'dimana saja', '2025-06-23 11:10:00', '2025-06-24 11:10:00', '1750648222_5134e5961fbf62b1b415.jpg', 10000, 0, 25, '2025-06-22 19:10:22', '2025-06-22 19:10:25'),
+(9, 'empty', 'asdfkjasdklf jasldkf jasl', 'dimana saja', '2025-06-27 21:46:00', '2025-06-30 21:46:00', '1750686399_fcdb3efb07def7670b03.jpg', 10000, 0, 10, '2025-06-23 05:46:39', '2025-06-23 06:52:23');
 
 -- --------------------------------------------------------
 
@@ -145,7 +150,15 @@ CREATE TABLE `event_attendees` (
 --
 
 INSERT INTO `event_attendees` (`id`, `event_id`, `user_id`, `ticket_id`, `quantity`, `payment_status`, `attended`, `created_at`, `updated_at`) VALUES
-(1, 1, 12, 1, 1, 'pending', 0, '2025-06-19 18:50:52', '2025-06-19 18:50:52');
+(1, 1, 12, 1, 1, 'pending', 0, '2025-06-19 18:50:52', '2025-06-19 18:50:52'),
+(2, 3, 21, 4, 10, 'pending', 0, '2025-06-22 00:55:15', '2025-06-22 00:55:15'),
+(3, 4, 21, 5, 1, 'pending', 0, '2025-06-22 01:38:55', '2025-06-22 01:38:55'),
+(4, 1, 10, 1, 1, 'pending', 0, '2025-06-22 01:39:24', '2025-06-22 01:39:24'),
+(5, 3, 26, 4, 6, 'pending', 0, '2025-06-22 06:23:57', '2025-06-22 06:23:57'),
+(6, 3, 10, 4, 5, 'pending', 0, '2025-06-23 05:55:03', '2025-06-23 05:55:03'),
+(7, 9, 10, 10, 1, 'pending', 0, '2025-06-23 06:51:27', '2025-06-23 06:51:27'),
+(8, 4, 19, 5, 1, 'pending', 0, '2025-06-23 07:08:41', '2025-06-23 07:08:41'),
+(9, 4, 27, 5, 5, 'pending', 0, '2025-06-23 20:09:51', '2025-06-23 20:09:51');
 
 -- --------------------------------------------------------
 
@@ -171,10 +184,13 @@ CREATE TABLE `event_tickets` (
 --
 
 INSERT INTO `event_tickets` (`id`, `event_id`, `ticket_type`, `price`, `quantity_available`, `sale_start`, `sale_end`, `is_active`, `created_at`, `updated_at`) VALUES
-(1, 1, 'early bird', 50000.00, 4, '2025-06-12 17:00:00', '2025-06-24 22:00:00', 1, '2025-06-19 18:10:10', '2025-06-19 18:50:52'),
+(1, 1, 'early bird', 50000.00, 3, '2025-06-12 17:00:00', '2025-06-24 22:00:00', 1, '2025-06-19 18:10:10', '2025-06-22 01:39:24'),
 (2, 1, 'reguler', 75000.00, 100, '2025-07-01 17:00:00', '2025-07-15 22:00:00', 1, '2025-06-19 18:10:10', '2025-06-20 02:16:40'),
-(4, 3, 'reguler', 500000.00, 100, '2025-05-25 12:00:00', '2025-07-01 12:00:00', 1, '2025-06-21 05:30:10', '2025-06-21 05:30:10'),
-(5, 4, 'reguler', 600000.00, 1000, '2025-06-15 12:00:00', '2025-06-30 12:00:00', 1, '2025-06-21 05:37:12', '2025-06-21 05:37:12');
+(4, 3, 'reguler', 500000.00, 79, '2025-05-25 12:00:00', '2025-07-01 12:00:00', 1, '2025-06-21 05:30:10', '2025-06-23 05:55:03'),
+(5, 4, 'reguler', 600000.00, 993, '2025-06-15 12:00:00', '2025-06-30 12:00:00', 1, '2025-06-21 05:37:12', '2025-06-23 20:09:51'),
+(7, 6, 'reguler', 20.00, 1200, '2025-06-20 17:57:00', '2025-06-23 17:57:00', 1, '2025-06-22 01:58:04', '2025-06-22 01:58:04'),
+(9, 8, 'reguler', 10000.00, 100, '2025-06-20 11:10:00', '2025-06-23 11:10:00', 1, '2025-06-22 19:10:22', '2025-06-22 19:10:22'),
+(10, 9, 'reguler', 10000.00, 99, '2025-06-16 21:46:00', '2025-06-24 21:46:00', 1, '2025-06-23 05:46:39', '2025-06-23 06:51:27');
 
 -- --------------------------------------------------------
 
@@ -239,7 +255,9 @@ INSERT INTO `forum_replies` (`id`, `topic_id`, `user_id`, `content`, `is_best_an
 (6, 30, 13, 'kenapa perlu di manage?', 0, '2025-06-19 17:45:23', '2025-06-19 17:45:23'),
 (7, 31, 13, 'agree', 0, '2025-06-19 17:45:53', '2025-06-19 17:45:53'),
 (8, 30, 13, 'topik yang sangat underrated', 0, '2025-06-19 17:48:15', '2025-06-19 17:48:15'),
-(9, 29, 13, 'saya sangat setuju dengan topik ini', 0, '2025-06-19 17:48:33', '2025-06-19 17:48:33');
+(9, 29, 13, 'saya sangat setuju dengan topik ini', 0, '2025-06-19 17:48:33', '2025-06-19 17:48:33'),
+(10, 36, 21, 'hairfcvhjtyf', 0, '2025-06-22 00:57:40', '2025-06-22 00:57:40'),
+(11, 36, 26, 'sok ye mu ris', 0, '2025-06-22 06:26:22', '2025-06-22 06:26:22');
 
 -- --------------------------------------------------------
 
@@ -265,7 +283,7 @@ CREATE TABLE `forum_topics` (
 --
 
 INSERT INTO `forum_topics` (`id`, `category_id`, `user_id`, `title`, `content`, `is_sticky`, `is_closed`, `view_count`, `created_at`, `updated_at`) VALUES
-(27, 1, 13, 'Using AI for Digital Art Curation', 'How can AI be used to curate digital artworks? Are there any platforms or tools already doing this effectively?', 0, 0, 19, '2025-06-19 07:57:48', '2025-06-19 00:46:42'),
+(27, 1, 13, 'Using AI for Digital Art Curation', 'How can AI be used to curate digital artworks? Are there any platforms or tools already doing this effectively?', 0, 0, 23, '2025-06-19 07:57:48', '2025-06-22 01:21:39'),
 (28, 1, 14, 'Blockchain for Art Authentication', 'Can blockchain technology be reliably used to certify the authenticity of digital artworks? Any success stories?', 0, 0, 3, '2025-06-19 07:57:48', '2025-06-21 19:02:15'),
 (29, 1, 16, 'Augmented Reality in Virtual Art Exhibitions', 'What AR tools or frameworks are suitable for creating immersive virtual art galleries?', 0, 0, 2, '2025-06-19 07:57:48', '2025-06-19 17:48:34'),
 (30, 1, 17, 'Managing Metadata for Digital Art', 'What are the best practices for organizing metadata in digital art information systems?', 0, 0, 5, '2025-06-19 07:57:48', '2025-06-19 17:48:15'),
@@ -274,7 +292,8 @@ INSERT INTO `forum_topics` (`id`, `category_id`, `user_id`, `title`, `content`, 
 (33, 2, 13, 'Optimizing SEO for Digital Art Platforms', 'What are the most effective SEO strategies for increasing traffic to online art galleries?', 0, 0, 0, '2025-06-19 07:57:48', '2025-06-19 07:57:48'),
 (34, 2, 14, 'Managing Social Media as an Emerging Artist', 'How can new artists use Instagram or TikTok more effectively to grow their audience and sales?', 0, 0, 0, '2025-06-19 07:57:48', '2025-06-19 07:57:48'),
 (35, 2, 16, 'Integrating Payment Gateways into Art Platforms', 'Which payment gateways are recommended for artists in Southeast Asia? Any integration advice?', 0, 0, 0, '2025-06-19 07:57:48', '2025-06-19 07:57:48'),
-(36, 2, 17, 'Tracking Art Sales Analytics in Real-Time', 'What tools or dashboards can we use to monitor digital artwork performance across marketplaces?', 0, 0, 0, '2025-06-19 07:57:48', '2025-06-19 07:57:48');
+(36, 2, 17, 'Tracking Art Sales Analytics in Real-Time', 'What tools or dashboards can we use to monitor digital artwork performance across marketplaces?', 0, 0, 4, '2025-06-19 07:57:48', '2025-06-22 06:26:22'),
+(37, 1, 10, 'pengaruh MCGG dalam desain interface', 'apakah mcgg memiliki pengaruh yang signifikan terhadap desain interface?', 0, 0, 0, '2025-06-22 07:04:25', '2025-06-22 07:04:25');
 
 -- --------------------------------------------------------
 
@@ -294,8 +313,8 @@ CREATE TABLE `master_frames` (
 
 INSERT INTO `master_frames` (`id`, `frame_name`, `price_adjustment`) VALUES
 (1, 'Print only', 0.00),
-(2, 'Oak', 2.00),
-(3, 'White', 5.00);
+(2, 'Oak', 35000.00),
+(3, 'White', 50000.00);
 
 -- --------------------------------------------------------
 
@@ -315,10 +334,10 @@ CREATE TABLE `master_sizes` (
 --
 
 INSERT INTO `master_sizes` (`id`, `size_name`, `size_description`, `price_adjustment`) VALUES
-(1, 'small', '21cm x 30cm, 8.3inches x 11,7 inches', 0.50),
-(2, 'medium', '42cm x 59cm, 16.5inches x 23.4inches', 1.00),
-(3, 'large', '59cm x 84cm, 23.4inches x 33.1inches', 1.50),
-(4, 'extra large', '70cm x 100cm, 27.6inches x 39.4inches', 2.00);
+(1, 'small', '21cm x 30cm, 8.3inches x 11,7 inches', 10000.00),
+(2, 'medium', '42cm x 59cm, 16.5inches x 23.4inches', 15000.00),
+(3, 'large', '59cm x 84cm, 23.4inches x 33.1inches', 20000.00),
+(4, 'extra large', '70cm x 100cm, 27.6inches x 39.4inches', 25000.00);
 
 -- --------------------------------------------------------
 
@@ -348,7 +367,13 @@ INSERT INTO `orders` (`id`, `user_id`, `session_id`, `total_amount`, `status`, `
 (6, 10, 'e52e3174e3cee89ef61f87cce61dcc06', 300000.00, 'pending', '2025-06-19 00:18:18'),
 (7, 10, '19f1a8d8b3120a91844ef3f3eb6f8132', 999999.00, 'pending', '2025-06-21 18:43:02'),
 (8, 16, '2febc465f842509ca4e713897210babd', 3700000.00, 'pending', '2025-06-21 18:46:12'),
-(9, 16, '2febc465f842509ca4e713897210babd', 899999.00, 'pending', '2025-06-21 18:46:45');
+(9, 16, '2febc465f842509ca4e713897210babd', 899999.00, 'pending', '2025-06-21 18:46:45'),
+(10, 21, '04fa08291c0494e58c7a00fa1687d0da', 899999.00, 'pending', '2025-06-22 01:18:54'),
+(11, 26, '049827edbc3e4e9770a6c0b674416a44', 2000000.00, 'pending', '2025-06-22 06:22:47'),
+(12, 19, '03333ec57ac2bc379d8fb119432524bb', 899999.00, 'pending', '2025-06-23 06:57:41'),
+(13, 19, 'c96720657359a9b0dc6b6aa8e09075cb', 899999.00, 'pending', '2025-06-23 07:08:55'),
+(14, 27, '4910ca0569939b3c5ded24842176d729', 1800000.00, 'pending', '2025-06-23 20:05:40'),
+(15, 27, '852b4f4a409c6accf4f2272853240e66', 800000.00, 'pending', '2025-06-23 20:08:02');
 
 -- --------------------------------------------------------
 
@@ -364,26 +389,32 @@ CREATE TABLE `order_items` (
   `frame_id` int(11) NOT NULL,
   `quantity` int(11) NOT NULL,
   `unit_price` decimal(10,2) NOT NULL,
-  `status` enum('pending','accepted','rejected') DEFAULT 'pending'
+  `status` enum('pending','accepted','rejected') NOT NULL DEFAULT 'pending'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data untuk tabel `order_items`
 --
 
-INSERT INTO `order_items` (`id`, `order_id`, `product_id`, `size_id`, `frame_id`, `quantity`, `unit_price`) VALUES
-(1, 2, 18, 36, 21, 1, 100000.00),
-(2, 3, 22, 46, 29, 4, 1000.00),
-(3, 4, 22, 46, 29, 1, 1000.00),
-(4, 4, 17, 35, 20, 1, 5000.00),
-(5, 4, 17, 35, 20, 1, 5000.00),
-(6, 5, 17, 34, 20, 1, 5000.00),
-(7, 5, 17, 34, 20, 1, 5000.00),
-(8, 6, 18, 36, 21, 3, 100000.00),
-(9, 7, 33, 84, 51, 1, 999999.00),
-(10, 8, 20, 44, 27, 2, 1350000.00),
-(11, 8, 20, 44, 27, 2, 1350000.00),
-(12, 9, 32, 80, 50, 1, 899999.00);
+INSERT INTO `order_items` (`id`, `order_id`, `product_id`, `size_id`, `frame_id`, `quantity`, `unit_price`, `status`) VALUES
+(1, 2, 18, 36, 21, 1, 100000.00, 'pending'),
+(2, 3, 22, 46, 29, 4, 1000.00, 'pending'),
+(3, 4, 22, 46, 29, 1, 1000.00, 'pending'),
+(4, 4, 17, 35, 20, 1, 5000.00, 'pending'),
+(5, 4, 17, 35, 20, 1, 5000.00, 'pending'),
+(6, 5, 17, 34, 20, 1, 5000.00, 'pending'),
+(7, 5, 17, 34, 20, 1, 5000.00, 'rejected'),
+(8, 6, 18, 36, 21, 3, 100000.00, 'rejected'),
+(9, 7, 33, 84, 51, 1, 999999.00, 'pending'),
+(10, 8, 20, 44, 27, 2, 1350000.00, 'rejected'),
+(11, 8, 20, 44, 27, 2, 1350000.00, 'accepted'),
+(12, 9, 32, 80, 50, 1, 899999.00, 'pending'),
+(13, 10, 34, 85, 52, 1, 899999.00, 'pending'),
+(14, 11, 30, 72, 48, 2, 1000000.00, 'pending'),
+(15, 12, 34, 85, 52, 1, 899999.00, 'accepted'),
+(16, 13, 34, 85, 52, 1, 899999.00, 'pending'),
+(17, 14, 24, 55, 33, 1, 1800000.00, 'pending'),
+(18, 15, 25, 56, 36, 1, 800000.00, 'pending');
 
 -- --------------------------------------------------------
 
@@ -427,20 +458,20 @@ INSERT INTO `products` (`id`, `artist_id`, `title`, `description`, `base_price`,
 (17, 10, 'burn', 'feel the burn', 1000000.00, '1750506908_8ffeb1b05ee04865f74e.jpg', 1, '2025-06-11 04:07:25', '2025-06-21 03:57:05'),
 (18, 10, 'starring night', 'stare to your soul', 1200000.00, '1750506977_c1b5c3884a17894845bc.jpg', 1, '2025-06-11 04:08:15', '2025-06-21 03:56:17'),
 (20, 10, 'Uncanny falley', '-', 1350000.00, '1750507010_47992f5e6f6fb5d41c91.jpg', 1, '2025-06-11 05:31:01', '2025-06-21 03:56:50'),
-(22, 13, 'teh gelas', 'asldkfjaslkdfj', 1000.00, '1749697106_6b4e19ca2055fa9ad01b.jpg', 0, '2025-06-11 18:58:26', '2025-06-21 04:24:01'),
+(22, 13, 'teh gelas', 'asldkfjaslkdfj', 1000.00, '1749697106_6b4e19ca2055fa9ad01b.jpg', 2, '2025-06-11 18:58:26', '2025-06-23 06:07:21'),
 (23, 13, 'Girl with a pearl earring', 'Abstract geometric acrylic painting on canvas. Inspired by Johannes Vermeer\'s \'Girl with a Pearl Earring\'', 2000000.00, '1750507983_40a311e6dbf426e36fdb.jpg', 1, '2025-06-21 04:13:03', '2025-06-21 04:13:03'),
 (24, 13, 'Mona Liza', 'mona lisa abstract style', 1800000.00, '1750508039_d4ebc6c6d0952c1f2671.jpg', 1, '2025-06-21 04:13:59', '2025-06-21 04:13:59'),
 (25, 14, 'Minecraft creeper paintings', 'creebet 2x1', 800000.00, '1750508564_4bfa860e6123bd3d7a36.jpg', 1, '2025-06-21 04:22:44', '2025-06-21 04:22:44'),
 (26, 14, 'Skull on Fire', 'minecraft skull on fire painting', 899000.00, '1750508614_32089503dcd28b85d7bf.jpg', 1, '2025-06-21 04:23:34', '2025-06-21 04:23:34'),
-(27, 12, 'Baroque', 'In Minecraft, the painting depicting a cake, sunflower, and pottery is called \"Baroque\". The painting depicting a vase, or \"pottery\", is part of the \"Decorated Pot\" item.', 955000.00, '1750508775_a979c7c93fad7063b6e0.jpg', 0, '2025-06-21 04:26:15', '2025-06-21 04:26:15'),
+(27, 12, 'Baroque', 'In Minecraft, the painting depicting a cake, sunflower, and pottery is called \"Baroque\". The painting depicting a vase, or \"pottery\", is part of the \"Decorated Pot\" item.', 955000.00, '1750508775_a979c7c93fad7063b6e0.jpg', 1, '2025-06-21 04:26:15', '2025-06-23 06:07:07'),
 (28, 14, 'Baroque', 'In Minecraft, the painting depicting a cake, sunflower, and pottery is called \"Baroque\". The painting depicting a vase, or \"pottery\", is part of the \"Decorated Pot\" item.', 955000.00, '1750508884_0b5becfe3c22bf577ca7.jpg', 1, '2025-06-21 04:28:04', '2025-06-21 04:31:10'),
-(29, 14, 'Graham', 'King Graham, the player character in the video game series King\'s Quest. The original is based on Still Life with Quince, Cabbage, Melon, and Cucumber by Juan Sánchez Cotán.', 999000.00, '1750509469_25a0133911edd1e53917.jpg', 1, '2025-06-21 04:37:49', '2025-06-21 05:00:05'),
 (30, 17, 'Capturing urban landscapes in oil', 'artist stephen magsig\'s city lights paintings, which depict detroit\'s streetscapes at night', 1000000.00, '1750510003_82a39044ac52c6d56550.jpg', 1, '2025-06-21 04:46:43', '2025-06-21 05:00:02'),
 (31, 17, '-', '-', 800000.00, '1750510067_3443614884ea61098b69.jpg', 1, '2025-06-21 04:47:47', '2025-06-21 04:59:59'),
 (32, 18, 'cReEpy.', '-', 899999.00, '1750510697_76af7a0e4564691b5185.jpg', 1, '2025-06-21 04:58:17', '2025-06-21 04:59:57'),
 (33, 18, '[Subject-001]', '-', 999999.00, '1750510724_bd1434342996e1b0b85b.jpg', 1, '2025-06-21 04:58:44', '2025-06-21 04:59:54'),
 (34, 18, 'Capek.', '-', 899999.00, '1750510748_904537ae54d4349e2552.jpg', 1, '2025-06-21 04:59:08', '2025-06-21 04:59:52'),
-(35, 18, 'smth', '-', 899999.00, '1750510769_481ab1edda40244a4a10.jpg', 1, '2025-06-21 04:59:29', '2025-06-21 04:59:50');
+(35, 18, 'smth', '-', 899999.00, '1750510769_481ab1edda40244a4a10.jpg', 1, '2025-06-21 04:59:29', '2025-06-21 04:59:50'),
+(36, 21, 'NOMNOM', 'JFXGFCHV', 50000.00, '1750583353_327a0c2094d448ac3172.jpg', 2, '2025-06-22 01:09:13', '2025-06-23 20:02:31');
 
 -- --------------------------------------------------------
 
@@ -479,16 +510,15 @@ INSERT INTO `product_frames` (`id`, `product_id`, `master_frame_id`) VALUES
 (41, 27, 2),
 (42, 28, 1),
 (43, 28, 2),
-(44, 29, 1),
-(45, 29, 2),
-(46, 29, 3),
 (47, 30, 1),
 (48, 30, 2),
 (49, 31, 1),
 (50, 32, 1),
 (51, 33, 1),
 (52, 34, 1),
-(53, 35, 1);
+(53, 35, 1),
+(54, 36, 1),
+(55, 36, 2);
 
 -- --------------------------------------------------------
 
@@ -537,9 +567,6 @@ INSERT INTO `product_sizes` (`id`, `product_id`, `master_size_id`) VALUES
 (66, 28, 2),
 (67, 28, 3),
 (68, 28, 4),
-(69, 29, 1),
-(70, 29, 2),
-(71, 29, 3),
 (72, 30, 1),
 (73, 30, 2),
 (74, 30, 3),
@@ -559,7 +586,11 @@ INSERT INTO `product_sizes` (`id`, `product_id`, `master_size_id`) VALUES
 (88, 35, 1),
 (89, 35, 2),
 (90, 35, 3),
-(91, 35, 4);
+(91, 35, 4),
+(92, 36, 1),
+(93, 36, 2),
+(94, 36, 3),
+(95, 36, 4);
 
 -- --------------------------------------------------------
 
@@ -644,6 +675,7 @@ CREATE TABLE `users` (
   `profile_url` varchar(500) DEFAULT NULL,
   `is_admin` tinyint(1) NOT NULL DEFAULT 0 COMMENT 'untuk membedakan user admin',
   `is_artist` tinyint(1) DEFAULT 0,
+  `is_active` int(11) NOT NULL DEFAULT 1,
   `artist_profile_approved` tinyint(1) DEFAULT 0,
   `fullname` varchar(255) NOT NULL,
   `art_categories` varchar(255) NOT NULL,
@@ -660,16 +692,21 @@ CREATE TABLE `users` (
 -- Dumping data untuk tabel `users`
 --
 
-INSERT INTO `users` (`id`, `username`, `email`, `password_hash`, `profile_url`, `is_admin`, `is_artist`, `artist_profile_approved`, `fullname`, `art_categories`, `location`, `phone`, `artist_bio`, `artist_website`, `stripe_connect_id`, `created_at`, `updated_at`) VALUES
-(10, 'ardih', 'm.rizkijuniardi24@gmail.com', '$2y$10$2cXI1WwJlvOsPHnHk9I4veZiptUS3B6dQP7YUSKIB3j4/ruSCZ1ES', 'uploads/profiles/1750506674_9919d407c3a3cbe4cf61.jpg', 0, 1, 1, 'M. Rizki Juniardi', 'Painting', 'indonesia', 2147483647, 'just a regular person with big ego.', 'alsdkfjas.com', NULL, '2025-06-10 19:22:29', '2025-06-22 00:56:27'),
-(12, 'aancuek', 'tongkrongaan@gmail.com', '$2y$10$ngbjXYlvCkLg4pKMS37/uuwqAU7R5fD7JJMRkUzD8BVgWxfKoYAhO', NULL, 1, 0, 0, '', '', '', 0, NULL, NULL, NULL, '2025-06-11 03:50:07', '2025-06-17 10:43:55'),
-(13, 'Abstract art', 'contoh@contoh.com', '$2y$10$rY18sYhyEg.D3HVk9Y3p1.r7m.jjKfQmKUKdvTV6PdirSScFJL3.W', 'uploads/profiles/1750507867_a0563d572677fd6a7f58.png', 0, 1, 1, 'contoh contoh', 'Painting, Digital Art, Photography', 'indonesia', 2147483647, 'i only posting abstract and modern type art', 'alsdkfjas.com', NULL, '2025-06-12 02:35:08', '2025-06-21 12:16:43'),
-(14, 'kkk', 'asdlfk@asdf.com', '$2y$10$KIB6SxsKa.z8jU0efZHIquyRMTgmcj/E26od6Ih32widCA0X9CO0m', 'uploads/profiles/1750509380_1c3eb4d88b67285d4ecd.jpg', 0, 1, 1, 'Minecraft player', 'Photography, Sculpture', 'indonesia', 2147483647, 'I only post artworks related to minecraft only', 'alsdkfjas.com', NULL, '2025-06-13 19:24:00', '2025-06-21 12:36:20'),
-(16, 'gmail', 'ardi@ardi.com', '$2y$10$R3Lx1s5CFpkIr.RDti7.meGH08i2CNKn4tKSaQUK3Q7WncyU5/wVS', NULL, 0, 1, 1, 'rizjnr', 'Painting, Photography', 'indonesia', 2147483647, 'rizjnr', 'alsdkfjas.com', NULL, '2025-06-17 03:14:19', '2025-06-17 12:25:41'),
-(17, 'jaris', 'jaris@gmail.com', '$2y$10$jWzSYb/7.meeuyHcLBv2dOiabQoa8K.f3qslDyrcD.QugqiX7R5tS', 'uploads/profiles/1750509829_3f67e4145209c60f4676.jpg', 0, 1, 1, 'jariski meidijuni', 'Painting, Digital Art, Photography, Sculpture', 'indonesia', 2147483647, 'aku seorang kapiten', 'alsdkfjas.com', NULL, '2025-06-17 12:27:58', '2025-06-21 12:43:49'),
-(18, 'Aska', 'asksa@gmail.com', '$2y$10$TBwIL/gd8pOKh9SbPhKoEuiZyJv2yT265fSwqVAhq1di9Y1oZ0py2', 'uploads/profiles/1750510444_87fbade751bd22e78cd0.jpg', 0, 1, 1, 'Aqsha nayaka', 'Painting, Digital Art', 'indonesia', 2147483647, 'Aska is the username my best-friend gave me', 'alsdkfjas.com', NULL, '2025-06-17 12:36:00', '2025-06-21 12:54:04'),
-(19, 'pawas', 'pawas@pawas.com', '$2y$10$ZIn/RcC9Lb3qum6rO/44K.xO6XnvMeM6aua9gi9Awykm51WdcwJNC', 'uploads/profiles/1750502767_4b80ccb9af1a4dea27da.png', 0, 0, 0, 'pawas hadi pawas', 'Painting, Digital Art, Photography, Sculpture', 'indonesia', 2147483647, 'alsdkfj', 'alsdkfjas.com', NULL, '2025-06-17 23:10:41', '2025-06-21 10:46:07'),
-(20, 'xclusivearrr', 'f1d02310074@student.unram.ac.id', '$2y$10$m8Dvr7E0cXGs9NDPNACx2OGQdQscXy2ssgjFluhOovgU6jXJgKZHi', 'uploads/profiles/1750576582_9e5243ce1199165bffb6.jpg', 0, 0, 0, 'asdfghjkl', '', 'Indonesia', 0, '', NULL, NULL, '2025-06-21 23:12:26', '2025-06-22 07:16:22');
+INSERT INTO `users` (`id`, `username`, `email`, `password_hash`, `profile_url`, `is_admin`, `is_artist`, `is_active`, `artist_profile_approved`, `fullname`, `art_categories`, `location`, `phone`, `artist_bio`, `artist_website`, `stripe_connect_id`, `created_at`, `updated_at`) VALUES
+(10, 'ardih', 'm.rizkijuniardi24@gmail.com', '$2y$10$2cXI1WwJlvOsPHnHk9I4veZiptUS3B6dQP7YUSKIB3j4/ruSCZ1ES', 'uploads/profiles/1750577282_017f9adcd2807ccebda0.jpg', 0, 1, 1, 1, 'M. Rizki Juniardi', 'Painting', 'indonesia', 0, 'just a regular person with big ego.', 'alsdkfjas.com', NULL, '2025-06-10 19:22:29', '2025-06-22 06:34:10'),
+(12, 'aancuek', 'tongkrongaan@gmail.com', '$2y$10$ngbjXYlvCkLg4pKMS37/uuwqAU7R5fD7JJMRkUzD8BVgWxfKoYAhO', 'uploads/profiles/1750603201_f34d5ab101f80ec36cf6.jpg', 1, 0, 1, 0, 'aaaaaaan', '', 'pagutan street', 0, 'orang gagah', NULL, NULL, '2025-06-11 03:50:07', '2025-06-22 14:40:01'),
+(13, 'Abstract art', 'contoh@contoh.com', '$2y$10$rY18sYhyEg.D3HVk9Y3p1.r7m.jjKfQmKUKdvTV6PdirSScFJL3.W', 'uploads/profiles/1750507867_a0563d572677fd6a7f58.png', 0, 1, 1, 1, 'contoh contoh', 'Painting, Digital Art, Photography', 'indonesia', 2147483647, 'i only posting abstract and modern type art', 'alsdkfjas.com', NULL, '2025-06-12 02:35:08', '2025-06-21 12:16:43'),
+(14, 'kkk', 'asdlfk@asdf.com', '$2y$10$KIB6SxsKa.z8jU0efZHIquyRMTgmcj/E26od6Ih32widCA0X9CO0m', 'uploads/profiles/1750509380_1c3eb4d88b67285d4ecd.jpg', 0, 1, 1, 1, 'Minecraft player', 'Photography, Sculpture', 'indonesia', 2147483647, 'I only post artworks related to minecraft only', 'alsdkfjas.com', NULL, '2025-06-13 19:24:00', '2025-06-21 12:36:20'),
+(16, 'gmail', 'ardi@ardi.com', '$2y$10$R3Lx1s5CFpkIr.RDti7.meGH08i2CNKn4tKSaQUK3Q7WncyU5/wVS', NULL, 0, 1, 1, 1, 'rizjnr', 'Painting, Photography', 'indonesia', 2147483647, 'rizjnr', 'alsdkfjas.com', NULL, '2025-06-17 03:14:19', '2025-06-17 12:25:41'),
+(17, 'jaris', 'jaris@gmail.com', '$2y$10$jWzSYb/7.meeuyHcLBv2dOiabQoa8K.f3qslDyrcD.QugqiX7R5tS', 'uploads/profiles/1750509829_3f67e4145209c60f4676.jpg', 0, 1, 1, 1, 'jariski meidijuni', 'Painting, Digital Art, Photography, Sculpture', 'indonesia', 2147483647, 'aku seorang kapiten', 'alsdkfjas.com', NULL, '2025-06-17 12:27:58', '2025-06-21 12:43:49'),
+(18, 'Aska', 'asksa@gmail.com', '$2y$10$TBwIL/gd8pOKh9SbPhKoEuiZyJv2yT265fSwqVAhq1di9Y1oZ0py2', 'uploads/profiles/1750510444_87fbade751bd22e78cd0.jpg', 0, 1, 1, 1, 'Aqsha nayaka', 'Painting, Digital Art', 'indonesia', 2147483647, 'Aska is the username my best-friend gave me', 'alsdkfjas.com', NULL, '2025-06-17 12:36:00', '2025-06-21 12:54:04'),
+(19, 'pawas', 'pawas@pawas.com', '$2y$10$ZIn/RcC9Lb3qum6rO/44K.xO6XnvMeM6aua9gi9Awykm51WdcwJNC', 'uploads/profiles/1750502767_4b80ccb9af1a4dea27da.png', 0, 0, 1, 0, 'pawas hadi pawas', 'Painting, Digital Art, Photography, Sculpture', 'indonesia', 2147483647, 'alsdkfj', 'alsdkfjas.com', NULL, '2025-06-17 23:10:41', '2025-06-21 10:46:07'),
+(20, 'xclusivearrr', 'f1d02310074@student.unram.ac.id', '$2y$10$m8Dvr7E0cXGs9NDPNACx2OGQdQscXy2ssgjFluhOovgU6jXJgKZHi', 'uploads/profiles/1750576582_9e5243ce1199165bffb6.jpg', 0, 0, 1, 0, 'asdfghjkl', '', 'Indonesia', 0, '', NULL, NULL, '2025-06-21 23:12:26', '2025-06-22 07:16:22'),
+(21, 'lala', 'eothokke@gmail.com', '$2y$10$aCuipSGUtVxag/5xMB.nzuXhjF2rPMd5F3DykKYzNS4s91hzTZjQW', 'uploads/profiles/1750583710_470d2c08dff183016824.jpg', 0, 0, 0, 0, 'M. RIZKI JUNIARDI', 'Photography', 'indonesia', 2147483647, 'lasdkfjasldkfj', 'alsdkfjas.com', NULL, '2025-06-22 00:52:58', '2025-06-22 02:54:42'),
+(22, 'rara', 'nyamnyam@gmail.com', '$2y$10$4K/OKdS9ROtGytuz30scPuhGMqKzaMVJNGyIkKcrhesFAskFlfWCC', NULL, 0, 0, 1, 0, '', '', '', 0, NULL, NULL, NULL, '2025-06-22 01:22:55', '2025-06-22 09:22:55'),
+(25, 'admin', 'admin@admin.com', '$2y$10$xlKoPzZ.2VRcYgVibK84/.9D5ZgPN2gifHnmC/ft.5dnUS8wysQvq', NULL, 1, 0, 1, 0, 'administrator', '', '', 2147483647, NULL, NULL, NULL, '2025-06-22 02:39:42', '2025-06-22 10:39:42'),
+(26, 'aan gagah dari ardi', 'aangagah@gmail.com', '$2y$10$bp109TgrtGWdjcX0mKdyCOwL5nNxBaRG.UfGsyEWnhKpE.Y9Mv3GC', NULL, 0, 0, 1, 0, 'aan gagah', 'Other', 'Pagutan', 0, 'hanya mahasiswa gabut ', '', NULL, '2025-06-22 06:20:48', '2025-06-22 06:33:26'),
+(27, 'pengguna', 'pengguna@pengguna.com', '$2y$10$7alXIgzoT6zwhhg1EtfzLureZl6j2SHzej0fi9RoDLUvoKdyYEJ8m', NULL, 0, 0, 1, 0, 'akun pengguna', '', 'indonesia', 0, 'ini akun pengguna', NULL, NULL, '2025-06-23 20:03:21', '2025-06-24 04:03:46');
 
 -- --------------------------------------------------------
 
@@ -895,7 +932,7 @@ ALTER TABLE `artist_commissions`
 -- AUTO_INCREMENT untuk tabel `artist_upgrade_requests`
 --
 ALTER TABLE `artist_upgrade_requests`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT untuk tabel `carts`
@@ -913,19 +950,19 @@ ALTER TABLE `cart_items`
 -- AUTO_INCREMENT untuk tabel `events`
 --
 ALTER TABLE `events`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT untuk tabel `event_attendees`
 --
 ALTER TABLE `event_attendees`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT untuk tabel `event_tickets`
 --
 ALTER TABLE `event_tickets`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT untuk tabel `forum_categories`
@@ -943,13 +980,13 @@ ALTER TABLE `forum_likes`
 -- AUTO_INCREMENT untuk tabel `forum_replies`
 --
 ALTER TABLE `forum_replies`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT untuk tabel `forum_topics`
 --
 ALTER TABLE `forum_topics`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
 
 --
 -- AUTO_INCREMENT untuk tabel `master_frames`
@@ -967,13 +1004,13 @@ ALTER TABLE `master_sizes`
 -- AUTO_INCREMENT untuk tabel `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT untuk tabel `order_items`
 --
 ALTER TABLE `order_items`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- AUTO_INCREMENT untuk tabel `payments`
@@ -985,19 +1022,19 @@ ALTER TABLE `payments`
 -- AUTO_INCREMENT untuk tabel `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
 
 --
 -- AUTO_INCREMENT untuk tabel `product_frames`
 --
 ALTER TABLE `product_frames`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=54;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=57;
 
 --
 -- AUTO_INCREMENT untuk tabel `product_sizes`
 --
 ALTER TABLE `product_sizes`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=92;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=100;
 
 --
 -- AUTO_INCREMENT untuk tabel `tutorials`
@@ -1027,7 +1064,7 @@ ALTER TABLE `tutorial_ratings`
 -- AUTO_INCREMENT untuk tabel `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 
 --
 -- AUTO_INCREMENT untuk tabel `user_tutorial_access`

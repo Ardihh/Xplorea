@@ -125,7 +125,7 @@ Admin Dashboard
                         </div>
                     </div>
                     <div class="mt-3 text-center">
-                        <a href="<?= base_url('admin/artists/approvals') ?>" class="btn btn-warning btn-sm">
+                        <a href="<?= base_url('admin/artists/approvals') ?>" class="btn btn-warning btn-sm text-white">
                             <i class="fas fa-eye"></i> Review Pending
                         </a>
                     </div>
@@ -151,7 +151,7 @@ Admin Dashboard
                         </div>
                     </div>
                     <div class="mt-3 text-center">
-                        <a href="<?= base_url('admin/artists?status=approved') ?>" class="btn btn-info btn-sm">
+                        <a href="<?= base_url('admin/artists?status=approved') ?>" class="btn btn-info btn-sm text-white">
                             <i class="fas fa-check-circle"></i> View Approved
                         </a>
                     </div>
@@ -225,7 +225,7 @@ Admin Dashboard
                         </div>
                     </div>
                     <div class="mt-3 text-center">
-                        <a href="<?= base_url('admin/artworks?status=pending') ?>" class="btn btn-warning btn-sm">
+                        <a href="<?= base_url('admin/artworks?status=pending') ?>" class="btn btn-warning btn-sm text-white">
                             <i class="fas fa-hourglass-half"></i> Review Pending
                         </a>
                     </div>

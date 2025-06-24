@@ -48,7 +48,7 @@ class AdminController extends BaseController
         $rejectedArtworks = $productModel
             ->join('users', 'users.id = products.artist_id')
             ->where('users.is_artist', 1)
-            ->where('products.is_approved', 2) 
+            ->where('products.is_approved', 2)
             ->countAllResults();
         
         // Calculate additional statistics
@@ -506,7 +506,7 @@ class AdminController extends BaseController
         } elseif ($status === 'approved') {
             $productModel->where('is_approved', 1);
         } elseif ($status === 'rejected') {
-            $productModel->where('is_approved', -1);
+            $productModel->where('is_approved', 2);
         }
 
         $artworks = $productModel->findAll();
