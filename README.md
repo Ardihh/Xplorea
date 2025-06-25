@@ -29,9 +29,7 @@ Admin
 - Moderasi komentar
 
 # Teknnologi
-- Sql
 - HTML
 - Java Script
-- PHP
-- Laravel
+- Code Igniter
 - Bootstrap
